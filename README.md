@@ -11,4 +11,6 @@ Yak-shavey utilities for use in the pythonista app on ios.  Very simple little c
 
 **merge_pdfs.py**: share pdf files one-by-one into it (using the "add to queue" option).  When you get to the last file, select the "finalize pdf" option instead.  It'll merge the pdf files in the order they were added and throw up an "open in" dialog to put the file somewhere.
 
+**risfile.py and zotero.py**: very much work-in-progress scripts to add data to zotero.
+
 more to be added as I make 'em.
