@@ -1,7 +1,7 @@
 # text tools for iOS/Pythonista
 Yak-shavey utilities for use in the pythonista app on ios.  Very simple little convenience scripts, largely designed to be put either on the lock screen/3d press (on iphone) or in the share sheet extension.  Mostly for quick and easy text manipulation, that kind of stuff.  
 
-**buttonbox.py**: lazy boilerplate code for creating buttons, used as a module in other scripts.
+**buttonbox.py**: lazy boilerplate code for creating buttons, used as a module in other scripts. (Note: doesn't always seem to work right, should switch to just using console buttons.  Seems to generate glitches in some of the things using this.
 
 **case_changer.py**: select text in some other app, share it via sharesheet into this, get it back converted to uppercase, lowercase, or some plausible facsimilie of title case (with arbitrary decisions made about whether to capitalize short words and such).  deposits converted text onto clipboard ready for pasting.
 
@@ -11,6 +11,9 @@ Yak-shavey utilities for use in the pythonista app on ios.  Very simple little c
 
 **merge_pdfs.py**: share pdf files one-by-one into it (using the "add to queue" option).  When you get to the last file, select the "finalize pdf" option instead.  It'll merge the pdf files in the order they were added and throw up an "open in" dialog to put the file somewhere.
 
+**readzip.py**: quick and dirty script to download a compressed file and unzip it in memory to an appropriate folder, because it drives me crazy that ios has no built-in way to look at the contents of compressed files.  Can handle .tar.gzip and .zip files.  Just takes url as console input from running the script, because I'm lazy.
+
 **risfile.py and zotero.py**: very much work-in-progress scripts to add data to zotero.
+
 
 more to be added as I make 'em.
