@@ -15,5 +15,6 @@ Yak-shavey utilities for use in the pythonista app on ios.  Very simple little c
 
 **risfile.py and zotero.py**: very much work-in-progress scripts to add data to zotero.
 
+**zipimages.py**: select multiple images in the ios photos app and share them to this script, and it will shove them into a tar.gzip archive, which will then pop up in a share sheet on its own. For efficient uploading of a group of images to dropbox, onedrive, etc., emailing, and so forth.
 
 more to be added as I make 'em.
